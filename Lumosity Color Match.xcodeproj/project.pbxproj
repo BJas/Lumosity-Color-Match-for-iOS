@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18AFF3891E166BFF00E220CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AFF3881E166BFF00E220CB /* AppDelegate.swift */; };
+		18AFF38B1E166BFF00E220CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AFF38A1E166BFF00E220CB /* ViewController.swift */; };
+		18AFF38E1E166BFF00E220CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AFF38C1E166BFF00E220CB /* Main.storyboard */; };
+		18AFF3901E166BFF00E220CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18AFF38F1E166BFF00E220CB /* Assets.xcassets */; };
+		18AFF3931E166BFF00E220CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18AFF3911E166BFF00E220CB /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18AFF3851E166BFF00E220CB /* Lumosity Color Match.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lumosity Color Match.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18AFF3881E166BFF00E220CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18AFF38A1E166BFF00E220CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18AFF38D1E166BFF00E220CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18AFF38F1E166BFF00E220CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18AFF3921E166BFF00E220CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18AFF3941E166BFF00E220CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18AFF3821E166BFF00E220CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18AFF37C1E166BFF00E220CB = {
+			isa = PBXGroup;
+			children = (
+				18AFF3871E166BFF00E220CB /* Lumosity Color Match */,
+				18AFF3861E166BFF00E220CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18AFF3861E166BFF00E220CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18AFF3851E166BFF00E220CB /* Lumosity Color Match.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18AFF3871E166BFF00E220CB /* Lumosity Color Match */ = {
+			isa = PBXGroup;
+			children = (
+				18AFF3881E166BFF00E220CB /* AppDelegate.swift */,
+				18AFF38A1E166BFF00E220CB /* ViewController.swift */,
+				18AFF38C1E166BFF00E220CB /* Main.storyboard */,
+				18AFF38F1E166BFF00E220CB /* Assets.xcassets */,
+				18AFF3911E166BFF00E220CB /* LaunchScreen.storyboard */,
+				18AFF3941E166BFF00E220CB /* Info.plist */,
+			);
+			path = "Lumosity Color Match";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18AFF3841E166BFF00E220CB /* Lumosity Color Match */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18AFF3971E166BFF00E220CB /* Build configuration list for PBXNativeTarget "Lumosity Color Match" */;
+			buildPhases = (
+				18AFF3811E166BFF00E220CB /* Sources */,
+				18AFF3821E166BFF00E220CB /* Frameworks */,
+				18AFF3831E166BFF00E220CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lumosity Color Match";
+			productName = "Lumosity Color Match";
+			productReference = 18AFF3851E166BFF00E220CB /* Lumosity Color Match.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18AFF37D1E166BFF00E220CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = KBTU;
+				TargetAttributes = {
+					18AFF3841E166BFF00E220CB = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 18AFF3801E166BFF00E220CB /* Build configuration list for PBXProject "Lumosity Color Match" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18AFF37C1E166BFF00E220CB;
+			productRefGroup = 18AFF3861E166BFF00E220CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18AFF3841E166BFF00E220CB /* Lumosity Color Match */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18AFF3831E166BFF00E220CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AFF3931E166BFF00E220CB /* LaunchScreen.storyboard in Resources */,
+				18AFF3901E166BFF00E220CB /* Assets.xcassets in Resources */,
+				18AFF38E1E166BFF00E220CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18AFF3811E166BFF00E220CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18AFF38B1E166BFF00E220CB /* ViewController.swift in Sources */,
+				18AFF3891E166BFF00E220CB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18AFF38C1E166BFF00E220CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18AFF38D1E166BFF00E220CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18AFF3911E166BFF00E220CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18AFF3921E166BFF00E220CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18AFF3951E166BFF00E220CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18AFF3961E166BFF00E220CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18AFF3981E166BFF00E220CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Lumosity Color Match/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "asd.Lumosity-Color-Match";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		18AFF3991E166BFF00E220CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Lumosity Color Match/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "asd.Lumosity-Color-Match";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18AFF3801E166BFF00E220CB /* Build configuration list for PBXProject "Lumosity Color Match" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18AFF3951E166BFF00E220CB /* Debug */,
+				18AFF3961E166BFF00E220CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18AFF3971E166BFF00E220CB /* Build configuration list for PBXNativeTarget "Lumosity Color Match" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18AFF3981E166BFF00E220CB /* Debug */,
+				18AFF3991E166BFF00E220CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18AFF37D1E166BFF00E220CB /* Project object */;
+}
